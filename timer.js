@@ -9,8 +9,10 @@ var stopBtn = document.getElementById("stopBtn");
 var timerApp;
 var outputContainer = document.getElementById("outputContainer");
 
+
 function StartClock()
 {
+
     inputHour = Number(document.getElementById("inputHour").value);
     inputMinute = Number(document.getElementById("inputMinute").value);
     inputSecond = Number(document.getElementById("inputSecond").value);
@@ -31,7 +33,10 @@ function StartClock()
         document.getElementById("inputMinute").value = "";
         document.getElementById("inputSecond").value = "";
     }
+
 }
+
+
 function StopClock()
 {
     startBtn.style.display = "inline-block";
@@ -41,8 +46,11 @@ function StopClock()
     outputSecond.innerHTML = "00";
     clearInterval(timerApp);
 }
+
 function ResetClock()
+
 {
+
     StopClock();
     outputContainer.style.display = "none";
     document.getElementById("inputHour").value = "";
@@ -54,7 +62,9 @@ function ResetClock()
     inputHour = 0;
     inputMinute = 0;
     inputSecond = 0;
+
 }
+
 function myClock()
 {  
     if(inputSecond > 0){
@@ -83,8 +93,11 @@ function myClock()
         }
     }
 }
+
 function FormatTime(time)
+
 {
+    
     var formatedTime
     if(time < 10)
     {
@@ -95,4 +108,5 @@ function FormatTime(time)
         formatedTime = time.toString();
     }
     return formatedTime
+
 }
