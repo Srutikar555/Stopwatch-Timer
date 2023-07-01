@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="hmenu.jpg" id="icon" height="40px" width="40px">
+        <div class="hamburger-menu" id="menu">
+            <div class="menu-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="stopwatch.html">Stopwatch</a></li>
+                    <li><a href="timer.html">timer</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            let menu = document.getElementById('menu');
+            let icon = document.getElementById('icon');
+            let menuList = document.querySelector('.menu-list');
+            icon.addEventListener('click', function (event) {
+                event.stopPropagation();
+                menu.classList.toggle('open');
+                menuList.style.display = menu.classList.contains('open') ? 'flex' : 'none';
+            });
+            document.addEventListener('click', function () {
+                menu.classList.remove('open');
+                menuList.style.display = 'none';
+            });
+        </script>
+</body>
+
+</html>

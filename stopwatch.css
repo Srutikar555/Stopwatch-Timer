@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url('watch3.jpg')no-repeat;
+    background-size:cover;
+    height:100%;
+    background-attachment:fixed;
+    background-position:top center;
+}
+.home button{
+    padding:2px;
+    width:70px;
+    height:35px;
+    margin:3px;
+    color:white;
+    transition:0.5s ease-in-out, transform 0.5s;
+    font-size:20px;
+    border-radius:8px;
+}
+.watch{
+    margin:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+img{
+    padding-top:2%;
+    width:280px;
+    height:280px;
+    border:lightseagreen;
+    border-radius:100%;
+    transition:0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.time{
+    padding-top:20px;
+    font-size:60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+button{
+    width:60px;
+    height:35px;
+    margin:2px;
+    color:white;
+    background-color:darkslateblue;
+    transition:0.2s ease-in-out, transform 0.2s;
+    font-size:20px;
+    border-radius:6px;
+}
+button:hover{
+    transform: translateY(10px);
+    background-color:mediumpurple;
+    color:black;
+    border-radius:6px;
+}

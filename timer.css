@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('watch3.jpg')no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:top center;
+}
+.home{
+    padding:4px;
+    margin:3px;
+    color:white;
+    border-radius:8px;
+    min-width:60px;
+    font-size:20px;
+    background-color:darkslateblue;
+}
+.watch-container{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.watch-container p{
+    padding:10px;
+    letter-spacing:1px;
+    font-size:80px;
+    box-shadow:yellowgreen;
+}
+.watch-container p span{
+    box-shadow:yellowgreen;
+}
+.clock-button{
+    padding:6px;
+    margin:3px;
+    color:white;
+    border-radius:8px;
+    min-width:60px;
+    font-size:20px;
+}
+#startBtn{
+    background-color:darkslateblue;
+}
+#stopBtn{
+    background-color:darkslateblue;
+    display: none;
+}
+#reset{
+    background-color:darkslateblue;
+}
+.min-width{
+    display:inline-block;
+    min-width:100px;
+    text-align:center;
+    font-size:70px;
+    padding:10px;
+}
+.stopwatch-buttons{
+    margin-top:20px;
+}
+.input-items{
+    display:flex;
+    margin:10px;
+    box-shadow:yellowgreen;
+}
+.input-box{
+    width:70px;
+    height:40px;
+    margin:5px;
+    padding:5px;
+    font-size:20px;
+    box-shadow:lightpink 0px 2px 4px 0px inset;
+}
+.input-group{
+    display:flex;
+    flex-direction:column;
+}
+.input-label{
+    margin:5px;
+    font-size:20px;
+}
+#outputContainer{
+    display:none;
+}
+.project-heading{
+    margin-bottom:60px;
+}
+.project-heading h1{
+    font-family:fantasy;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-size:25px;
+}
