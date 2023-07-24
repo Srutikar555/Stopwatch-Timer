@@ -9,13 +9,17 @@ body{
     background-attachment:fixed;
     background-position:top center;
 }
+h1{
+    color:darkblue;
+}
 .home{
     padding:6px;
     margin:3px;
-    color:white;
+    color:indigo;
     border-radius:8px;
     min-width:60px;
     font-size:20px;
+    /* background-color:rgb(138, 166, 202); */
 }
 .watch-container{
     width: 100%;
@@ -37,20 +41,23 @@ body{
 .clock-button{
     padding:6px;
     margin:3px;
-    color:white;
+    color:indigo;
     border-radius:8px;
     min-width:60px;
     font-size:20px;
 }
+#homeBtn{
+    background-color:rgb(138, 166, 202);
+}
 #startBtn{
-    background-color:darkslateblue;
+    background-color:rgb(138, 166, 202);
 }
 #stopBtn{
-    background-color:darkslateblue;
+    background-color:rgb(138, 166, 202);
     display: none;
 }
 #reset{
-    background-color:darkslateblue;
+    background-color:rgb(138, 166, 202);
 }
 .min-width{
     display:inline-block;
@@ -73,7 +80,7 @@ body{
     margin:5px;
     padding:5px;
     font-size:20px;
-    box-shadow:lightpink 0px 2px 4px 0px inset;
+    box-shadow:plum 0px 2px 4px 0px inset;
 }
 .input-group{
     display:flex;
@@ -90,7 +97,7 @@ body{
     margin-bottom:60px;
 }
 .project-heading h1{
-    font-family:fantasy;
+    font-family:"Lucida Console", "Courier New", monospace;;
     font-weight:bold;
     text-transform:capitalize;
     font-size:25px;

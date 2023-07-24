@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background:url('welcome.jpg')no-repeat;
+    background:url('we1.jpg')no-repeat;
     background-position:top center;
     background-attachment:fixed;
     height:100%;
@@ -42,14 +42,14 @@ body{
 }
 .menu-list ul li a {
     display:inline-block;
-    color:white;
-    font-size:100px;
+    color:black;
+    font-size:100px ;
     font-size:x-large;
-    font-family:'Times New Roman', Times, serif;
+    font-family:monospace;
     position:relative;
     font-weight:bolder;
     font-style:initial;
-    transition:transform 0.5s;
+    transition:transform 0.25s;
 }
 .menu-list ul li a:hover {
     transform: translateY(5px);
